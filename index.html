@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Interlinked — Shamma & Shereena</title>
+  <meta name="description" content="Interlinked is a capstone installation by Shamma Al Jneibi and Shereena Al Nuaimi." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise"></div>
+  <div class="orb orb1"></div>
+  <div class="orb orb2"></div>
+  <div class="orb orb3"></div>
+
+  <header class="topbar">
+    <div class="wrap nav">
+      <a href="#top" class="brand">Interlinked</a>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#process">Process</a>
+        <a href="#flow">Flow</a>
+        <a href="#visuals">Visuals</a>
+      </nav>
+      <a class="mini-btn" href="https://projection-project.vercel.app/upload" target="_blank" rel="noopener noreferrer">Upload page</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow">Shamma Al Jneibi &amp; Shereena Al Nuaimi</div>
+        <h1>A shared image system about connection, memory, and participation.</h1>
+        <p class="lead">
+          Interlinked is a live projection-based installation where people upload images through a QR code and see them appear inside a circular visual field.
+          From there, relationships form between images through simple curved lines, turning individual contributions into a shared visual system.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#about">See the project</a>
+          <a class="btn ghost" href="https://projection-project.vercel.app/upload" target="_blank" rel="noopener noreferrer">Open upload page</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="circle-stage">
+          <svg class="curve-lines" viewBox="0 0 520 520" aria-hidden="true">
+            <path d="M145 145 Q 260 80 375 145" />
+            <path d="M375 145 Q 430 260 375 375" />
+            <path d="M145 375 Q 260 440 375 375" />
+            <path d="M145 145 Q 90 260 145 375" />
+            <path d="M145 145 Q 260 220 375 145" />
+            <path d="M145 375 Q 260 300 375 375" />
+          </svg>
+
+          <div class="portrait p1"></div>
+          <div class="portrait p2"></div>
+          <div class="portrait p3"></div>
+          <div class="portrait p4"></div>
+          <div class="portrait p5"></div>
+          <div class="portrait p6"></div>
+
+          <a class="center-node center-link" href="https://projection-project.vercel.app/upload" target="_blank" rel="noopener noreferrer">
+            <div class="center-title">Interlinked</div>
+            <div class="center-sub">open upload page</div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="about">
+      <div class="section-head">
+        <div class="eyebrow">About the work</div>
+        <h2>The project begins with a simple action and grows into a shared visual space.</h2>
+      </div>
+      <div class="about-grid">
+        <div class="card glass">
+          <h3>Project description</h3>
+          <p>
+            The installation invites people to upload an image from their phone through a QR code. Once uploaded, the image appears instantly inside a circular projection,
+            becoming part of a shared display. Instead of treating images as separate, the system allows connections to form between them.
+            These connections are shown through clean curved lines, keeping the experience minimal and easy to read while still allowing meaning to emerge through interaction.
+          </p>
+        </div>
+        <div class="card glass">
+          <h3>Design intent</h3>
+          <p>
+            The visual language is calm and controlled. The circle removes hierarchy and keeps all images equally present,
+            while the connection lines are kept simple to avoid distraction. The goal is to create a space where people can focus on
+            relationships between images rather than visual effects.
+          </p>
+        </div>
+        <div class="card glass">
+          <h3>Live link</h3>
+          <p>
+            The current upload page is live and working. This is the link connected to the QR flow:
+          </p>
+          <p class="link-box"><a href="https://projection-project.vercel.app/upload" target="_blank" rel="noopener noreferrer">https://projection-project.vercel.app/upload</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="process">
+      <div class="section-head">
+        <div class="eyebrow">Process</div>
+        <h2>How the project was built and refined.</h2>
+      </div>
+      <div class="process-grid">
+        <article class="process-card">
+          <div class="num">01</div>
+          <h3>QR upload flow</h3>
+          <p>
+            The first step was building the upload entry point. The QR code links directly to the mobile upload page, so the user can move from phone to projection without extra friction.
+          </p>
+        </article>
+        <article class="process-card">
+          <div class="num">02</div>
+          <h3>Projection base</h3>
+          <p>
+            We built the projection-mapped circle as the main visual environment. This established the shared field where all uploaded images would live together in a balanced composition.
+          </p>
+        </article>
+        <article class="process-card">
+          <div class="num">03</div>
+          <h3>Interactive connections</h3>
+          <p>
+            The next layer focused on how connections appear between images. Instead of using heavy visual effects, we developed a system of simple curved lines that clearly show relationships while maintaining a clean and minimal composition.
+          </p>
+        </article>
+        <article class="process-card">
+          <div class="num">04</div>
+          <h3>Refinement</h3>
+          <p>
+            We kept polishing spacing, pacing, readability, and visual balance so that the whole system feels exhibition-ready and not just technically functional.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="flow">
+      <div class="section-head">
+        <div class="eyebrow">Experience flow</div>
+        <h2>What happens when someone enters the system.</h2>
+      </div>
+      <div class="flow">
+        <div class="flow-step glass">
+          <span>1</span>
+          <p>User scans the QR code</p>
+        </div>
+        <div class="flow-line"></div>
+        <div class="flow-step glass">
+          <span>2</span>
+          <p>User enters the upload page and selects an image</p>
+        </div>
+        <div class="flow-line"></div>
+        <div class="flow-step glass">
+          <span>3</span>
+          <p>The image is uploaded and appears inside the projection circle</p>
+        </div>
+        <div class="flow-line"></div>
+        <div class="flow-step glass">
+          <span>4</span>
+          <p>Connections form between images through simple interaction</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap visuals" id="visuals">
+      <div class="section-head">
+        <div class="eyebrow">Visuals</div>
+        <h2>Layout, projection, and atmosphere.</h2>
+      </div>
+      <div class="visual-grid">
+        <div class="visual-card large glass">
+          <div class="visual-label">Projection layout</div>
+          <img src="assets/layout-mockup.png" alt="Projection layout mockup" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+          <div class="fallback">Layout image placeholder</div>
+        </div>
+        <div class="visual-card glass">
+          <div class="visual-label">Visual language</div>
+          <p>
+            The visuals are intentionally restrained. Dark tones, balanced spacing, and simple line connections create an environment that feels calm and readable.
+            The absence of heavy effects allows the focus to remain on the relationships between images.
+          </p>
+        </div>
+        <div class="visual-card glass">
+          <div class="visual-label">Interaction quality</div>
+          <p>
+            The goal is not only to make the system work, but to make it feel sensitive, readable, and emotionally intentional.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap final-note">
+      <div class="glass note-card">
+        <div class="eyebrow">Final note</div>
+        <h2>This site presents the project as an experience, not just a documentation page.</h2>
+        <p>
+          The intention is to show how the technical and creative layers come together into one system. Interlinked is built around participation,
+          but its real focus is on how connections are made visible and meaningful in a shared environment.
+        </p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
